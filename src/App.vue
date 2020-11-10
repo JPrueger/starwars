@@ -1,27 +1,30 @@
 <template>
   <div id="app">
+    <Navbar/>
     <Characters/>
   </div>
 </template>
 
 <script>
 import Characters from './components/Characters.vue'
+import Navbar from '@/components/Navbar'
 
 export default {
   name: 'App',
   components: {
-    Characters
+    Characters,
+    Navbar
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss" src="@/assets/styles/app.scss"></style>
+
+<style lang="scss">
+
+  // .icons_star_wars {
+  //     width: 25%;
+  //     margin-bottom: 3rem;
+  // }
+
 </style>
