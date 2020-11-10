@@ -7,3 +7,14 @@
   </div>
 
 </template>
+
+
+<style lang="scss">
+
+ @import '@/assets/styles/variables.scss';
+
+ h1 {
+   color: $primaryColor;
+ }
+
+</style>
